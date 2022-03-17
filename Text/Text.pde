@@ -1,7 +1,7 @@
 String title = "SHLORP!";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
-color green=#107615, resetDefaultInk=#FFFFFF;
+color green=#144607, resetDefaultInk=#FFFFFF;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
 fullScreen(); //size (500, 600);  //displayWidth & displayHeight
@@ -24,7 +24,7 @@ rect(titleX, titleY, titleWidth, titleHeight);
 fill(green); //Ink, hexidecimal copied from Color Selector
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASEMENT ]
-textFont(titleFont, 55); //Change the number until it fits
+textFont(titleFont, 50); //Change the number until it fits
 text(title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
 //End Program
